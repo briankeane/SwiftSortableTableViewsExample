@@ -13,6 +13,7 @@
 		4BD9029C1F5DCEF400DC2E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9029B1F5DCEF400DC2E73 /* Assets.xcassets */; };
 		4BD9029F1F5DCEF400DC2E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9029D1F5DCEF400DC2E73 /* LaunchScreen.storyboard */; };
 		4BD902AA1F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD902A91F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift */; };
+		4BD902BA1F5DD29D00DC2E73 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD902B91F5DD29D00DC2E73 /* CustomCell.swift */; };
 		90539D7EDC60E631C6776733 /* Pods_SwiftSortableTableviewsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F732916AE80F552A1ADD589D /* Pods_SwiftSortableTableviewsExampleTests.framework */; };
 		FEE5C57064D658A9A7274C44 /* Pods_SwiftSortableTableviewsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC6AC0999774AD3ADD5B763 /* Pods_SwiftSortableTableviewsExample.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		4BD902A51F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSortableTableviewsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD902A91F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSortableTableviewsExampleTests.swift; sourceTree = "<group>"; };
 		4BD902AB1F5DCEF400DC2E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD902B91F5DD29D00DC2E73 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		CE8C66EE64D8BE71C9254E4D /* Pods-SwiftSortableTableviewsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSortableTableviewsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample.release.xcconfig"; sourceTree = "<group>"; };
 		F52BAD77E86C54977ECA31B6 /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSortableTableviewsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F732916AE80F552A1ADD589D /* Pods_SwiftSortableTableviewsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSortableTableviewsExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 				4BD9029B1F5DCEF400DC2E73 /* Assets.xcassets */,
 				4BD9029D1F5DCEF400DC2E73 /* LaunchScreen.storyboard */,
 				4BD902A01F5DCEF400DC2E73 /* Info.plist */,
+				4BD902B91F5DD29D00DC2E73 /* CustomCell.swift */,
 			);
 			path = SwiftSortableTableviewsExample;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD902971F5DCEF400DC2E73 /* ViewController.swift in Sources */,
+				4BD902BA1F5DD29D00DC2E73 /* CustomCell.swift in Sources */,
 				4BD902951F5DCEF400DC2E73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +560,7 @@
 				4BD902B01F5DCEF400DC2E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BD902B11F5DCEF400DC2E73 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviewsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +569,7 @@
 				4BD902B31F5DCEF400DC2E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

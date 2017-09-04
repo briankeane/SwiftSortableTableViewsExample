@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "569B9B2AC350FA1D866847A04CE8DA578E78DAE3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43B8B1143D775219043512147F688AC973593C79" : 9223372036854775807,
+    "569B9B2AC350FA1D866847A04CE8DA578E78DAE3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5DB13F79-E7C6-4436-99F6-C74737DB2FD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43B8B1143D775219043512147F688AC973593C79" : "SwiftSortableTableviews\/",
+    "569B9B2AC350FA1D866847A04CE8DA578E78DAE3" : "SwiftSortableTableviewsExample\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftSortableTableviewsExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftSortableTableviewsExample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/briankeane\/SwiftSortableTableviews.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43B8B1143D775219043512147F688AC973593C79"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/briankeane\/SwiftSortableTableviewsExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "569B9B2AC350FA1D866847A04CE8DA578E78DAE3"
+    }
+  ]
+}
