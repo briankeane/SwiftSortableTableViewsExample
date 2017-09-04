@@ -1,0 +1,6 @@
+framework module SwiftSortableTableviews {
+  umbrella header "SwiftSortableTableviews-umbrella.h"
+
+  export *
+  module * { export * }
+}

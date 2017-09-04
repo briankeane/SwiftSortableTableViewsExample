@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1709D3461B88E12A492CCDCC222C5A7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1FC44524519488DE78F54E36C090B60B /* SortableTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E098CF6863B456304A5F69CC5022273 /* SortableTableview.swift */; };
+		363858CCE71847A8C930EB10B9D6FAC8 /* Pods-SwiftSortableTableviewsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B156BCEA31C9A3BF1F274A5AF798A3 /* Pods-SwiftSortableTableviewsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB48A342C5F39017B174D8F09F5FFB3 /* Pods-SwiftSortableTableviewsExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB503D8CE61BC931DA309BAD156FC102 /* Pods-SwiftSortableTableviewsExampleTests-dummy.m */; };
+		59C7D71F8E6B6654E710D1C48B260026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5C83B00295744CE7E08CEEE0B5A00808 /* Pods-SwiftSortableTableviewsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4E4BE037265E00D7B15463DCF384B6 /* Pods-SwiftSortableTableviewsExample-dummy.m */; };
+		7C967905552E5259D9204D6B411ED9F5 /* SwiftSortableTableviews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA50B6F2B79A0DC2A3BE6BF1F5D638 /* SwiftSortableTableviews-dummy.m */; };
+		7F039B438941F1541DFDC9E4060881FF /* SwiftSortableTableviews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E70F6EA544A8AD8D8519ED16088594E5 /* SwiftSortableTableviews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A64DFBD6AC786A30B290341BB04377 /* Pods-SwiftSortableTableviewsExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4021B694DC895A22C28B1BF6D2CB925D /* Pods-SwiftSortableTableviewsExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE90A32470047C2045066CD10599F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A385205FC9C4FF0F4018E0728F0E1940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8407F2728DF231D143741ABA2B2F0655;
+			remoteInfo = SwiftSortableTableviews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E098CF6863B456304A5F69CC5022273 /* SortableTableview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortableTableview.swift; path = Sources/SortableTableview.swift; sourceTree = "<group>"; };
+		13976FBBE348FFED5B15DD565E30C97B /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSortableTableviewsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		15055E9E1F672FAB8327DAB8F4F62920 /* Pods-SwiftSortableTableviewsExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSortableTableviewsExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		30AB0050030D3E24B9750E29AA3B4493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351953A90F8F946BA45507B81327A70D /* Pods-SwiftSortableTableviewsExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftSortableTableviewsExampleTests.modulemap"; sourceTree = "<group>"; };
+		378D0EBAD52547B222AFECA9D87506F3 /* Pods-SwiftSortableTableviewsExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSortableTableviewsExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4021B694DC895A22C28B1BF6D2CB925D /* Pods-SwiftSortableTableviewsExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSortableTableviewsExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		449BE221CD55795E52F84DFBAC771B2D /* Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52B156BCEA31C9A3BF1F274A5AF798A3 /* Pods-SwiftSortableTableviewsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftSortableTableviewsExample-umbrella.h"; sourceTree = "<group>"; };
+		5A91D4C7A8CF5C76E205D69D855DFB1A /* SwiftSortableTableviews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSortableTableviews-prefix.pch"; sourceTree = "<group>"; };
+		5C77AC2B4A59C6B54C67EABCA7E60EE8 /* SwiftSortableTableviews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSortableTableviews.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66238342206FB4995ECEADFCD8B59D04 /* Pods-SwiftSortableTableviewsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftSortableTableviewsExample.modulemap"; sourceTree = "<group>"; };
+		77FA50B6F2B79A0DC2A3BE6BF1F5D638 /* SwiftSortableTableviews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSortableTableviews-dummy.m"; sourceTree = "<group>"; };
+		79BF3C9A16FE48C09A0C4AB752D55448 /* SwiftSortableTableviews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSortableTableviews.modulemap; sourceTree = "<group>"; };
+		7C78FD89C1D87D25EBCB1136465E446C /* Pods-SwiftSortableTableviewsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSortableTableviewsExample.release.xcconfig"; sourceTree = "<group>"; };
+		876C3696B06ED01B32C2E5449289393A /* Pods-SwiftSortableTableviewsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSortableTableviewsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		89F12B6A287A515DE5B9C8028DA6B301 /* SwiftSortableTableviews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSortableTableviews.framework; path = SwiftSortableTableviews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934D6DCF69DCC48FA43F5A8C01E52B03 /* Pods-SwiftSortableTableviewsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSortableTableviewsExample-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA4E4BE037265E00D7B15463DCF384B6 /* Pods-SwiftSortableTableviewsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSortableTableviewsExample-dummy.m"; sourceTree = "<group>"; };
+		AEDDD65BE05706F3A5FE890D0F2B08CE /* Pods-SwiftSortableTableviewsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSortableTableviewsExample-frameworks.sh"; sourceTree = "<group>"; };
+		BA574AD825B139840D8620A6427A6E55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD76B5D7ECDE2737509B19802981D8F3 /* Pods_SwiftSortableTableviewsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftSortableTableviewsExampleTests.framework; path = "Pods-SwiftSortableTableviewsExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAF2683CE4DFAD02454D44ED70DD43A /* Pods-SwiftSortableTableviewsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftSortableTableviewsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		CD836672D2FE6364DB4B7BB16BDF31E8 /* Pods_SwiftSortableTableviewsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftSortableTableviewsExample.framework; path = "Pods-SwiftSortableTableviewsExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF4C52CFCEC7D852EA42513D2D40227 /* Pods-SwiftSortableTableviewsExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftSortableTableviewsExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB6A688FCD2909CA59E46515615CC791 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67D7B9A6A9D0964DF3C0376B00D3467 /* Pods-SwiftSortableTableviewsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftSortableTableviewsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E70F6EA544A8AD8D8519ED16088594E5 /* SwiftSortableTableviews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSortableTableviews-umbrella.h"; sourceTree = "<group>"; };
+		EB503D8CE61BC931DA309BAD156FC102 /* Pods-SwiftSortableTableviewsExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftSortableTableviewsExampleTests-dummy.m"; sourceTree = "<group>"; };
+		ECF0E53A885586A1DCC8DDBD95133929 /* Pods-SwiftSortableTableviewsExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftSortableTableviewsExampleTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FD2A016EA6E45FC37AC1B598A4DF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE90A32470047C2045066CD10599F7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF53BD0348E35BEB3D153C1B7B993DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C7D71F8E6B6654E710D1C48B260026 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE06D948CD5ED4531D138382DB2D9DD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1709D3461B88E12A492CCDCC222C5A7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F0EDFFF824B7561862E355BB7C9095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD836672D2FE6364DB4B7BB16BDF31E8 /* Pods_SwiftSortableTableviewsExample.framework */,
+				BD76B5D7ECDE2737509B19802981D8F3 /* Pods_SwiftSortableTableviewsExampleTests.framework */,
+				89F12B6A287A515DE5B9C8028DA6B301 /* SwiftSortableTableviews.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A05A6CEFFF213BA6B3DAE4D1065B58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30AB0050030D3E24B9750E29AA3B4493 /* Info.plist */,
+				79BF3C9A16FE48C09A0C4AB752D55448 /* SwiftSortableTableviews.modulemap */,
+				5C77AC2B4A59C6B54C67EABCA7E60EE8 /* SwiftSortableTableviews.xcconfig */,
+				77FA50B6F2B79A0DC2A3BE6BF1F5D638 /* SwiftSortableTableviews-dummy.m */,
+				5A91D4C7A8CF5C76E205D69D855DFB1A /* SwiftSortableTableviews-prefix.pch */,
+				E70F6EA544A8AD8D8519ED16088594E5 /* SwiftSortableTableviews-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../SwiftSortableTableviewsExample/Pods/Target Support Files/SwiftSortableTableviews";
+			sourceTree = "<group>";
+		};
+		62A426F08452E8F2428BBC213E90BBD5 /* Pods-SwiftSortableTableviewsExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6A688FCD2909CA59E46515615CC791 /* Info.plist */,
+				351953A90F8F946BA45507B81327A70D /* Pods-SwiftSortableTableviewsExampleTests.modulemap */,
+				378D0EBAD52547B222AFECA9D87506F3 /* Pods-SwiftSortableTableviewsExampleTests-acknowledgements.markdown */,
+				CFF4C52CFCEC7D852EA42513D2D40227 /* Pods-SwiftSortableTableviewsExampleTests-acknowledgements.plist */,
+				EB503D8CE61BC931DA309BAD156FC102 /* Pods-SwiftSortableTableviewsExampleTests-dummy.m */,
+				15055E9E1F672FAB8327DAB8F4F62920 /* Pods-SwiftSortableTableviewsExampleTests-frameworks.sh */,
+				ECF0E53A885586A1DCC8DDBD95133929 /* Pods-SwiftSortableTableviewsExampleTests-resources.sh */,
+				4021B694DC895A22C28B1BF6D2CB925D /* Pods-SwiftSortableTableviewsExampleTests-umbrella.h */,
+				449BE221CD55795E52F84DFBAC771B2D /* Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig */,
+				13976FBBE348FFED5B15DD565E30C97B /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftSortableTableviewsExampleTests";
+			path = "Target Support Files/Pods-SwiftSortableTableviewsExampleTests";
+			sourceTree = "<group>";
+		};
+		7D914CD5BA44E5A368274ADEDAAAB7F9 /* Pods-SwiftSortableTableviewsExample */ = {
+			isa = PBXGroup;
+			children = (
+				BA574AD825B139840D8620A6427A6E55 /* Info.plist */,
+				66238342206FB4995ECEADFCD8B59D04 /* Pods-SwiftSortableTableviewsExample.modulemap */,
+				E67D7B9A6A9D0964DF3C0376B00D3467 /* Pods-SwiftSortableTableviewsExample-acknowledgements.markdown */,
+				876C3696B06ED01B32C2E5449289393A /* Pods-SwiftSortableTableviewsExample-acknowledgements.plist */,
+				AA4E4BE037265E00D7B15463DCF384B6 /* Pods-SwiftSortableTableviewsExample-dummy.m */,
+				AEDDD65BE05706F3A5FE890D0F2B08CE /* Pods-SwiftSortableTableviewsExample-frameworks.sh */,
+				934D6DCF69DCC48FA43F5A8C01E52B03 /* Pods-SwiftSortableTableviewsExample-resources.sh */,
+				52B156BCEA31C9A3BF1F274A5AF798A3 /* Pods-SwiftSortableTableviewsExample-umbrella.h */,
+				BEAF2683CE4DFAD02454D44ED70DD43A /* Pods-SwiftSortableTableviewsExample.debug.xcconfig */,
+				7C78FD89C1D87D25EBCB1136465E446C /* Pods-SwiftSortableTableviewsExample.release.xcconfig */,
+			);
+			name = "Pods-SwiftSortableTableviewsExample";
+			path = "Target Support Files/Pods-SwiftSortableTableviewsExample";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8B8B574420617AC5B3D427F2651112B7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				12F0EDFFF824B7561862E355BB7C9095 /* Products */,
+				8C75E581544972A394FEBC1EE751CBDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8B574420617AC5B3D427F2651112B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC16C22C14003C470940999641846EC3 /* SwiftSortableTableviews */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8C75E581544972A394FEBC1EE751CBDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D914CD5BA44E5A368274ADEDAAAB7F9 /* Pods-SwiftSortableTableviewsExample */,
+				62A426F08452E8F2428BBC213E90BBD5 /* Pods-SwiftSortableTableviewsExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC16C22C14003C470940999641846EC3 /* SwiftSortableTableviews */ = {
+			isa = PBXGroup;
+			children = (
+				0E098CF6863B456304A5F69CC5022273 /* SortableTableview.swift */,
+				54A05A6CEFFF213BA6B3DAE4D1065B58 /* Support Files */,
+			);
+			name = SwiftSortableTableviews;
+			path = /Users/briankeane/code/SwiftSortableTableviews;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1633BDC3BFFF8B1F600F3BC0E402BB4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A64DFBD6AC786A30B290341BB04377 /* Pods-SwiftSortableTableviewsExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F40F8FDF06B1E492B56817ADAEA21DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F039B438941F1541DFDC9E4060881FF /* SwiftSortableTableviews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97121689C4402A455E0DD7590CC8A3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363858CCE71847A8C930EB10B9D6FAC8 /* Pods-SwiftSortableTableviewsExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		254EAAA573658880C9D388D95DF2C89F /* Pods-SwiftSortableTableviewsExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EF51A493AFB4BFCAD73D1D830576E4 /* Build configuration list for PBXNativeTarget "Pods-SwiftSortableTableviewsExampleTests" */;
+			buildPhases = (
+				D6E57DF83B026FCC8B49A120A856CD7E /* Sources */,
+				BBF53BD0348E35BEB3D153C1B7B993DF /* Frameworks */,
+				1633BDC3BFFF8B1F600F3BC0E402BB4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftSortableTableviewsExampleTests";
+			productName = "Pods-SwiftSortableTableviewsExampleTests";
+			productReference = BD76B5D7ECDE2737509B19802981D8F3 /* Pods_SwiftSortableTableviewsExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71AF50D9C38C8C8841C64D7682CCBCED /* Pods-SwiftSortableTableviewsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4900138A27EDB606C3FB3244C014E2F8 /* Build configuration list for PBXNativeTarget "Pods-SwiftSortableTableviewsExample" */;
+			buildPhases = (
+				A1A45D62256E4F9B33C348D6E3CFD4E1 /* Sources */,
+				BE06D948CD5ED4531D138382DB2D9DD7 /* Frameworks */,
+				A97121689C4402A455E0DD7590CC8A3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1417BF2599475C05D0C16556E66F066 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftSortableTableviewsExample";
+			productName = "Pods-SwiftSortableTableviewsExample";
+			productReference = CD836672D2FE6364DB4B7BB16BDF31E8 /* Pods_SwiftSortableTableviewsExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8407F2728DF231D143741ABA2B2F0655 /* SwiftSortableTableviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4480EA37F698902144DB4968B6F808 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviews" */;
+			buildPhases = (
+				8F1543D5969132B3A89059293A75996A /* Sources */,
+				26FD2A016EA6E45FC37AC1B598A4DF28 /* Frameworks */,
+				9F40F8FDF06B1E492B56817ADAEA21DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSortableTableviews;
+			productName = SwiftSortableTableviews;
+			productReference = 89F12B6A287A515DE5B9C8028DA6B301 /* SwiftSortableTableviews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 12F0EDFFF824B7561862E355BB7C9095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AF50D9C38C8C8841C64D7682CCBCED /* Pods-SwiftSortableTableviewsExample */,
+				254EAAA573658880C9D388D95DF2C89F /* Pods-SwiftSortableTableviewsExampleTests */,
+				8407F2728DF231D143741ABA2B2F0655 /* SwiftSortableTableviews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1543D5969132B3A89059293A75996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC44524519488DE78F54E36C090B60B /* SortableTableview.swift in Sources */,
+				7C967905552E5259D9204D6B411ED9F5 /* SwiftSortableTableviews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A45D62256E4F9B33C348D6E3CFD4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C83B00295744CE7E08CEEE0B5A00808 /* Pods-SwiftSortableTableviewsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E57DF83B026FCC8B49A120A856CD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB48A342C5F39017B174D8F09F5FFB3 /* Pods-SwiftSortableTableviewsExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1417BF2599475C05D0C16556E66F066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSortableTableviews;
+			target = 8407F2728DF231D143741ABA2B2F0655 /* SwiftSortableTableviews */;
+			targetProxy = A385205FC9C4FF0F4018E0728F0E1940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36C0D857B4D99BF47CF1E56F65605C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAF2683CE4DFAD02454D44ED70DD43A /* Pods-SwiftSortableTableviewsExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftSortableTableviewsExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46766E7A7B8449CBFC52103E3A404B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C78FD89C1D87D25EBCB1136465E446C /* Pods-SwiftSortableTableviewsExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftSortableTableviewsExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62FEC98ADD29D86938CE978C82D40066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C77AC2B4A59C6B54C67EABCA7E60EE8 /* SwiftSortableTableviews.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSortableTableviews/SwiftSortableTableviews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSortableTableviews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSortableTableviews/SwiftSortableTableviews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSortableTableviews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFB39FD6B2FBB21745CD3C22CA5BEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449BE221CD55795E52F84DFBAC771B2D /* Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftSortableTableviewsExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA184C033FA43C9C50711D28461484A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13976FBBE348FFED5B15DD565E30C97B /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftSortableTableviewsExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F22959FA5694453B898E7C1AD98A199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C77AC2B4A59C6B54C67EABCA7E60EE8 /* SwiftSortableTableviews.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSortableTableviews/SwiftSortableTableviews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSortableTableviews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSortableTableviews/SwiftSortableTableviews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSortableTableviews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4480EA37F698902144DB4968B6F808 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FEC98ADD29D86938CE978C82D40066 /* Debug */,
+				F22959FA5694453B898E7C1AD98A199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4900138A27EDB606C3FB3244C014E2F8 /* Build configuration list for PBXNativeTarget "Pods-SwiftSortableTableviewsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C0D857B4D99BF47CF1E56F65605C09 /* Debug */,
+				46766E7A7B8449CBFC52103E3A404B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EF51A493AFB4BFCAD73D1D830576E4 /* Build configuration list for PBXNativeTarget "Pods-SwiftSortableTableviewsExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFB39FD6B2FBB21745CD3C22CA5BEE0 /* Debug */,
+				BA184C033FA43C9C50711D28461484A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

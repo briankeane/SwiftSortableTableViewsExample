@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BD902951F5DCEF400DC2E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD902941F5DCEF400DC2E73 /* AppDelegate.swift */; };
+		4BD902971F5DCEF400DC2E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD902961F5DCEF400DC2E73 /* ViewController.swift */; };
+		4BD9029A1F5DCEF400DC2E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD902981F5DCEF400DC2E73 /* Main.storyboard */; };
+		4BD9029C1F5DCEF400DC2E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9029B1F5DCEF400DC2E73 /* Assets.xcassets */; };
+		4BD9029F1F5DCEF400DC2E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD9029D1F5DCEF400DC2E73 /* LaunchScreen.storyboard */; };
+		4BD902AA1F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD902A91F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift */; };
+		90539D7EDC60E631C6776733 /* Pods_SwiftSortableTableviewsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F732916AE80F552A1ADD589D /* Pods_SwiftSortableTableviewsExampleTests.framework */; };
+		FEE5C57064D658A9A7274C44 /* Pods_SwiftSortableTableviewsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC6AC0999774AD3ADD5B763 /* Pods_SwiftSortableTableviewsExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BD902A61F5DCEF400DC2E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD902891F5DCEF400DC2E73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD902901F5DCEF400DC2E73;
+			remoteInfo = SwiftSortableTableviewsExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28D97FDB5BCB1296F90B3291 /* Pods-SwiftSortableTableviewsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSortableTableviewsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC6AC0999774AD3ADD5B763 /* Pods_SwiftSortableTableviewsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSortableTableviewsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469C92E99D4B25633CA99108 /* Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD902911F5DCEF400DC2E73 /* SwiftSortableTableviewsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSortableTableviewsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD902941F5DCEF400DC2E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BD902961F5DCEF400DC2E73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BD902991F5DCEF400DC2E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BD9029B1F5DCEF400DC2E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BD9029E1F5DCEF400DC2E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BD902A01F5DCEF400DC2E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD902A51F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSortableTableviewsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD902A91F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSortableTableviewsExampleTests.swift; sourceTree = "<group>"; };
+		4BD902AB1F5DCEF400DC2E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8C66EE64D8BE71C9254E4D /* Pods-SwiftSortableTableviewsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSortableTableviewsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample.release.xcconfig"; sourceTree = "<group>"; };
+		F52BAD77E86C54977ECA31B6 /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSortableTableviewsExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F732916AE80F552A1ADD589D /* Pods_SwiftSortableTableviewsExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSortableTableviewsExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD9028E1F5DCEF400DC2E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE5C57064D658A9A7274C44 /* Pods_SwiftSortableTableviewsExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD902A21F5DCEF400DC2E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90539D7EDC60E631C6776733 /* Pods_SwiftSortableTableviewsExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD902881F5DCEF400DC2E73 = {
+			isa = PBXGroup;
+			children = (
+				4BD902931F5DCEF400DC2E73 /* SwiftSortableTableviewsExample */,
+				4BD902A81F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests */,
+				4BD902921F5DCEF400DC2E73 /* Products */,
+				A339F3DB047BD1CCE546B7F2 /* Pods */,
+				BFE340AB10F5A24C080313C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD902921F5DCEF400DC2E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD902911F5DCEF400DC2E73 /* SwiftSortableTableviewsExample.app */,
+				4BD902A51F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD902931F5DCEF400DC2E73 /* SwiftSortableTableviewsExample */ = {
+			isa = PBXGroup;
+			children = (
+				4BD902941F5DCEF400DC2E73 /* AppDelegate.swift */,
+				4BD902961F5DCEF400DC2E73 /* ViewController.swift */,
+				4BD902981F5DCEF400DC2E73 /* Main.storyboard */,
+				4BD9029B1F5DCEF400DC2E73 /* Assets.xcassets */,
+				4BD9029D1F5DCEF400DC2E73 /* LaunchScreen.storyboard */,
+				4BD902A01F5DCEF400DC2E73 /* Info.plist */,
+			);
+			path = SwiftSortableTableviewsExample;
+			sourceTree = "<group>";
+		};
+		4BD902A81F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD902A91F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift */,
+				4BD902AB1F5DCEF400DC2E73 /* Info.plist */,
+			);
+			path = SwiftSortableTableviewsExampleTests;
+			sourceTree = "<group>";
+		};
+		A339F3DB047BD1CCE546B7F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28D97FDB5BCB1296F90B3291 /* Pods-SwiftSortableTableviewsExample.debug.xcconfig */,
+				CE8C66EE64D8BE71C9254E4D /* Pods-SwiftSortableTableviewsExample.release.xcconfig */,
+				469C92E99D4B25633CA99108 /* Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig */,
+				F52BAD77E86C54977ECA31B6 /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFE340AB10F5A24C080313C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EC6AC0999774AD3ADD5B763 /* Pods_SwiftSortableTableviewsExample.framework */,
+				F732916AE80F552A1ADD589D /* Pods_SwiftSortableTableviewsExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BD902901F5DCEF400DC2E73 /* SwiftSortableTableviewsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD902AE1F5DCEF400DC2E73 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviewsExample" */;
+			buildPhases = (
+				5CB595CF126C9C07CD2889BB /* [CP] Check Pods Manifest.lock */,
+				4BD9028D1F5DCEF400DC2E73 /* Sources */,
+				4BD9028E1F5DCEF400DC2E73 /* Frameworks */,
+				4BD9028F1F5DCEF400DC2E73 /* Resources */,
+				4AC223ECC172957B7EFA2106 /* [CP] Embed Pods Frameworks */,
+				1858E6C2B331333CC9D833B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSortableTableviewsExample;
+			productName = SwiftSortableTableviewsExample;
+			productReference = 4BD902911F5DCEF400DC2E73 /* SwiftSortableTableviewsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BD902A41F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD902B11F5DCEF400DC2E73 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviewsExampleTests" */;
+			buildPhases = (
+				C09E60E08ACDE527D207B720 /* [CP] Check Pods Manifest.lock */,
+				4BD902A11F5DCEF400DC2E73 /* Sources */,
+				4BD902A21F5DCEF400DC2E73 /* Frameworks */,
+				4BD902A31F5DCEF400DC2E73 /* Resources */,
+				0C1344DA2E7E56E39D6FBCA8 /* [CP] Embed Pods Frameworks */,
+				1B6C7CEAB44B9E97D48503AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD902A71F5DCEF400DC2E73 /* PBXTargetDependency */,
+			);
+			name = SwiftSortableTableviewsExampleTests;
+			productName = SwiftSortableTableviewsExampleTests;
+			productReference = 4BD902A51F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BD902891F5DCEF400DC2E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brian D Keane";
+				TargetAttributes = {
+					4BD902901F5DCEF400DC2E73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FSRSPV9N9Q;
+						ProvisioningStyle = Automatic;
+					};
+					4BD902A41F5DCEF400DC2E73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FSRSPV9N9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BD902901F5DCEF400DC2E73;
+					};
+				};
+			};
+			buildConfigurationList = 4BD9028C1F5DCEF400DC2E73 /* Build configuration list for PBXProject "SwiftSortableTableviewsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BD902881F5DCEF400DC2E73;
+			productRefGroup = 4BD902921F5DCEF400DC2E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD902901F5DCEF400DC2E73 /* SwiftSortableTableviewsExample */,
+				4BD902A41F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD9028F1F5DCEF400DC2E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD9029F1F5DCEF400DC2E73 /* LaunchScreen.storyboard in Resources */,
+				4BD9029C1F5DCEF400DC2E73 /* Assets.xcassets in Resources */,
+				4BD9029A1F5DCEF400DC2E73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD902A31F5DCEF400DC2E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1344DA2E7E56E39D6FBCA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1858E6C2B331333CC9D833B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B6C7CEAB44B9E97D48503AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSortableTableviewsExampleTests/Pods-SwiftSortableTableviewsExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC223ECC172957B7EFA2106 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSortableTableviews/SwiftSortableTableviews.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSortableTableviews.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB595CF126C9C07CD2889BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSortableTableviewsExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09E60E08ACDE527D207B720 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSortableTableviewsExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BD9028D1F5DCEF400DC2E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD902971F5DCEF400DC2E73 /* ViewController.swift in Sources */,
+				4BD902951F5DCEF400DC2E73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD902A11F5DCEF400DC2E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD902AA1F5DCEF400DC2E73 /* SwiftSortableTableviewsExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BD902A71F5DCEF400DC2E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD902901F5DCEF400DC2E73 /* SwiftSortableTableviewsExample */;
+			targetProxy = 4BD902A61F5DCEF400DC2E73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BD902981F5DCEF400DC2E73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD902991F5DCEF400DC2E73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BD9029D1F5DCEF400DC2E73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD9029E1F5DCEF400DC2E73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD902AC1F5DCEF400DC2E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BD902AD1F5DCEF400DC2E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BD902AF1F5DCEF400DC2E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D97FDB5BCB1296F90B3291 /* Pods-SwiftSortableTableviewsExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = SwiftSortableTableviewsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.SwiftSortableTableviewsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BD902B01F5DCEF400DC2E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8C66EE64D8BE71C9254E4D /* Pods-SwiftSortableTableviewsExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = SwiftSortableTableviewsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.SwiftSortableTableviewsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4BD902B21F5DCEF400DC2E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469C92E99D4B25633CA99108 /* Pods-SwiftSortableTableviewsExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = SwiftSortableTableviewsExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.SwiftSortableTableviewsExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSortableTableviewsExample.app/SwiftSortableTableviewsExample";
+			};
+			name = Debug;
+		};
+		4BD902B31F5DCEF400DC2E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52BAD77E86C54977ECA31B6 /* Pods-SwiftSortableTableviewsExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FSRSPV9N9Q;
+				INFOPLIST_FILE = SwiftSortableTableviewsExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.playola.SwiftSortableTableviewsExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSortableTableviewsExample.app/SwiftSortableTableviewsExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD9028C1F5DCEF400DC2E73 /* Build configuration list for PBXProject "SwiftSortableTableviewsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD902AC1F5DCEF400DC2E73 /* Debug */,
+				4BD902AD1F5DCEF400DC2E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD902AE1F5DCEF400DC2E73 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviewsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD902AF1F5DCEF400DC2E73 /* Debug */,
+				4BD902B01F5DCEF400DC2E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BD902B11F5DCEF400DC2E73 /* Build configuration list for PBXNativeTarget "SwiftSortableTableviewsExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD902B21F5DCEF400DC2E73 /* Debug */,
+				4BD902B31F5DCEF400DC2E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BD902891F5DCEF400DC2E73 /* Project object */;
+}
