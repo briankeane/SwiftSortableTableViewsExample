@@ -1,8 +1,8 @@
 {
-  "name": "SwiftSortableTableviews",
+  "name": "SwiftSortableTableViews",
   "version": "0.0.1",
   "summary": "Easy to use, Drag and Drop Tableviews",
-  "homepage": "https://github.com/briankeane/SwiftSortableTableviews.git",
+  "homepage": "https://github.com/briankeane/SwiftSortableTableViews.git",
   "license": {
     "type": "MIT"
   },
@@ -14,7 +14,7 @@
     "osx": "10.12"
   },
   "source": {
-    "git": "https://github.com/briankeane/SwiftSortableTableviews.git",
+    "git": "https://github.com/briankeane/SwiftSortableTableViews.git",
     "tag": "0.0.1"
   },
   "exclude_files": [

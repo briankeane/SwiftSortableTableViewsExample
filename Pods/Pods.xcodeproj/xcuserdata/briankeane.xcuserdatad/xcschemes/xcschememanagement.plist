@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftSortableTableviews.xcscheme</key>
+		<key>SwiftSortableTableViews.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>23C3CFF46293CD0324D61FEE5695B9CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>254EAAA573658880C9D388D95DF2C89F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>71AF50D9C38C8C8841C64D7682CCBCED</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8407F2728DF231D143741ABA2B2F0655</key>
+		<key>91796F6B1EC5E03793A6376B296EB389</key>
 		<dict>
 			<key>primary</key>
 			<true/>

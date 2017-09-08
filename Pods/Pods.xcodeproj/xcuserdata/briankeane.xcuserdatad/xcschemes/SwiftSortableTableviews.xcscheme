@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8407F2728DF231D143741ABA2B2F0655'
-               BlueprintName = 'SwiftSortableTableviews'
+               BlueprintIdentifier = '91796F6B1EC5E03793A6376B296EB389'
+               BlueprintName = 'SwiftSortableTableViews'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftSortableTableviews.framework'>
+               BuildableName = 'SwiftSortableTableViews.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71AF50D9C38C8C8841C64D7682CCBCED"
+               BlueprintIdentifier = "23C3CFF46293CD0324D61FEE5695B9CD"
                BuildableName = "Pods_SwiftSortableTableviewsExample.framework"
                BlueprintName = "Pods-SwiftSortableTableviewsExample"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71AF50D9C38C8C8841C64D7682CCBCED"
+            BlueprintIdentifier = "23C3CFF46293CD0324D61FEE5695B9CD"
             BuildableName = "Pods_SwiftSortableTableviewsExample.framework"
             BlueprintName = "Pods-SwiftSortableTableviewsExample"
             ReferencedContainer = "container:Pods.xcodeproj">

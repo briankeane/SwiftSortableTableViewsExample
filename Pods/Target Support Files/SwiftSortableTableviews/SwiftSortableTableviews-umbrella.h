@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SwiftSortableTableviewsVersionNumber;
-FOUNDATION_EXPORT const unsigned char SwiftSortableTableviewsVersionString[];
+FOUNDATION_EXPORT double SwiftSortableTableViewsVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftSortableTableViewsVersionString[];
 

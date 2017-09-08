@@ -290,11 +290,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSortableTableviewsExample/Pods-SwiftSortableTableviewsExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftSortableTableviews/SwiftSortableTableviews.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSortableTableViews/SwiftSortableTableViews.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSortableTableviews.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSortableTableViews.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
