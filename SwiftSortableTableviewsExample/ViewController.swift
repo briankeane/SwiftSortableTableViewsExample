@@ -22,6 +22,7 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
     
     var sortableHandler:SortableTableViewHandler!
     
+    //------------------------------------------------------------------------------
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,11 +30,14 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         self.eventLogTextView.text = ""
     }
     
-
+    //------------------------------------------------------------------------------
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
     }
+    
+    //------------------------------------------------------------------------------
     
     func setupSortableTableViews()
     {
@@ -50,6 +54,8 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
                                                         ])
         
     }
+    
+    //------------------------------------------------------------------------------
     
     func logEvent(_ text:String)
     {
@@ -79,10 +85,14 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         cell.isHidden = false
         return cell
     }
-        
+    
+    //------------------------------------------------------------------------------
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
+    
+    //------------------------------------------------------------------------------
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -96,6 +106,7 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         }
     }
     
+    //------------------------------------------------------------------------------
     
     func sortableTableView(_ releasingTableView: SortableTableView, shouldReleaseItem originalIndexPath: IndexPath, desiredIndexPath:IndexPath, receivingTableView:SortableTableView) -> Bool
     {
@@ -107,6 +118,8 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         }
         return true
     }
+    
+    //------------------------------------------------------------------------------
     
     func sortableTableView(_ tableView: SortableTableView, canBePickedUp indexPath: IndexPath) -> Bool
     {
@@ -120,6 +133,8 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         }
         return true
     }
+    
+    //------------------------------------------------------------------------------
     
     func sortableTableView(_ releasingTableView: SortableTableView, willReceiveItem originalIndexPath: IndexPath, newIndexPath: IndexPath, receivingTableView: UITableView) {
         self.logEvent("willReceiveItem fired")
@@ -135,6 +150,8 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         }
     }
     
+    //------------------------------------------------------------------------------
+    
     func sortableTableView(_ tableView: SortableTableView, willDropItem originalIndexPath: IndexPath, newIndexPath: IndexPath) {
         self.logEvent("willDropItem fired")
         if (tableView == self.lettersTableView)
@@ -149,15 +166,22 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         }
     }
     
+    //------------------------------------------------------------------------------
+    
     func sortableTableView(_ releasingTableView: SortableTableView, willReleaseItem originalIndexPath: IndexPath, newIndexPath: IndexPath, receivingTableView: SortableTableView) {
         self.logEvent("willReleaseItem fired")
     }
+    
+    //------------------------------------------------------------------------------
     
     func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
         return false
     }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    //------------------------------------------------------------------------------
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
+    {
         if (editingStyle == .delete)
         {
             if (tableView == self.lettersTableView)
@@ -173,7 +197,10 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         }
     }
     
-    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+    //------------------------------------------------------------------------------
+    
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
+    {
         // odd numbers cannot be deleted from the number table
         if (tableView == self.numbersTableView)
         {
@@ -185,12 +212,40 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
         return true
     }
     
-    func sortableTableView(_ tableView: SortableTableView, draggedItemDidEnterTableViewAtIndexPath indexPath: IndexPath) {
+    //------------------------------------------------------------------------------
+    
+    func sortableTableView(_ tableView: SortableTableView, draggedItemDidEnterTableViewAtIndexPath indexPath: IndexPath)
+    {
         self.logEvent("draggedItemDidEnterTableViewAtIndexPath fired")
     }
     
-    func sortableTableView(_ tableView: SortableTableView, draggedItemDidExitTableViewFromIndexPath indexPath: IndexPath) {
+    //------------------------------------------------------------------------------
+    
+    func sortableTableView(_ tableView: SortableTableView, draggedItemDidExitTableViewFromIndexPath indexPath: IndexPath)
+    {
         self.logEvent("draggedItemDidExitTableViewFromIndexPath fired")
+    }
+    
+    //------------------------------------------------------------------------------
+    
+    func sortableTableView(_ originalTableView: SortableTableView, itemMoveDidCancel originalIndexPath: IndexPath)
+    {
+        self.logEvent("itemMoveDidCancel fired")
+    }
+    
+    //------------------------------------------------------------------------------
+    
+    func sortableTableView(_ originalTableView: SortableTableView, itemWasPickedUp originalIndexPath: IndexPath)
+    {
+        self.logEvent("itemWasPickedUp fired")
+    }
+    
+    //------------------------------------------------------------------------------
+    
+    func sortableTableView(_ releasingTableView: SortableTableView, shouldReceiveItem originalIndexPath: IndexPath, desiredIndexPath: IndexPath, receivingTableView: UITableView) -> Bool
+    {
+        self.logEvent("shouldReceiveItem fired")
+        return true
     }
 }
 
