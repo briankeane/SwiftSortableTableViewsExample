@@ -1,12 +1,16 @@
 PODS:
-  - SwiftSortableTableViews (0.0.4)
+  - SwiftSortableTableViews (0.2.0)
 
 DEPENDENCIES:
-  - SwiftSortableTableViews (~> 0.0.3)
+  - SwiftSortableTableViews (from `~/code/SwiftSortableTableViews/SwiftSortableTableViews.podspec`)
+
+EXTERNAL SOURCES:
+  SwiftSortableTableViews:
+    :path: ~/code/SwiftSortableTableViews/SwiftSortableTableViews.podspec
 
 SPEC CHECKSUMS:
-  SwiftSortableTableViews: 8e0949c20ff60ac0825dc91d0a7456c6adda0d6b
+  SwiftSortableTableViews: 4919b85c99ac00169e1f6347a8d18e3ff7b6504e
 
-PODFILE CHECKSUM: 3afc27f78e85d827b1f9924347c2d4d38a0cadb5
+PODFILE CHECKSUM: 8cae1678c07ddbdc874bca0c285fb722020c764b
 
 COCOAPODS: 1.3.1

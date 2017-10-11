@@ -11,6 +11,12 @@ import SwiftSortableTableViews
 
 let kCustomCellIdentifier = "kCustomCellIdentifier"
 
+
+// In the Example:
+//  -- vowels cannot be dropped into the numbers table
+//  -- odd numbers cannot be picked up from the numbers table
+//  -- even numbers cannot be deleted
+
 class ViewController: UIViewController,SortableTableViewDelegate, SortableTableViewDataSource  {
 
     @IBOutlet weak var numbersTableView: SortableTableView!
@@ -108,25 +114,24 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ releasingTableView: SortableTableView, shouldReleaseItem originalIndexPath: IndexPath, desiredIndexPath:IndexPath, receivingTableView:SortableTableView) -> Bool
+    func sortableTableView(_ releasingTableView: SortableTableView, shouldReleaseItem originalRow: Int, desiredRow:Int, receivingTableView:SortableTableView) -> Bool
     {
         self.logEvent("shouldReleaseItem fired")
         // vowels are not welcome in the numbers table
         if (receivingTableView == self.numbersTableView)
         {
-            return (["a","e","i","o","u"].index(of: self.lettersArray[originalIndexPath.row]) == nil)
+            return (["a","e","i","o","u"].index(of: self.lettersArray[originalRow]) == nil)
         }
         return true
     }
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ tableView: SortableTableView, canBePickedUp indexPath: IndexPath) -> Bool
-    {
+    func sortableTableView(_ tableView: SortableTableView, canBePickedUp row: Int) -> Bool {
         self.logEvent("canBePickedUp fired")
         if (tableView == self.numbersTableView)
         {
-            if let numberVersion = Int(self.numbersArray[indexPath.row])
+            if let numberVersion = Int(self.numbersArray[row])
             {
                 return (numberVersion % 2 == 0)
             }
@@ -135,40 +140,39 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
     }
     
     //------------------------------------------------------------------------------
-    
-    func sortableTableView(_ releasingTableView: SortableTableView, willReceiveItem originalIndexPath: IndexPath, newIndexPath: IndexPath, receivingTableView: UITableView) {
+
+    func sortableTableView(_ releasingTableView: SortableTableView, willReceiveItem originalRow: Int, newRow: Int, receivingTableView: SortableTableView) {
         self.logEvent("willReceiveItem fired")
         // if moving from numbersTableView to lettersTableView
         if ((releasingTableView == self.lettersTableView) && (receivingTableView == self.numbersTableView))
         {
-            self.numbersArray.insert(self.lettersArray.remove(at: originalIndexPath.row), at: newIndexPath.row)
+            self.numbersArray.insert(self.lettersArray.remove(at: originalRow), at: newRow)
         }
         // ELSE IF moving from numb
         else if ((releasingTableView == self.numbersTableView) && (receivingTableView == self.lettersTableView))
         {
-            self.lettersArray.insert(self.numbersArray.remove(at: originalIndexPath.row), at: newIndexPath.row)
+            self.lettersArray.insert(self.numbersArray.remove(at: originalRow), at: newRow)
         }
     }
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ tableView: SortableTableView, willDropItem originalIndexPath: IndexPath, newIndexPath: IndexPath) {
+    func sortableTableView(_ tableView: SortableTableView, willDropItem originalRow: Int, newRow: Int) {
         self.logEvent("willDropItem fired")
         if (tableView == self.lettersTableView)
         {
-            self.lettersArray.insert(self.lettersArray.remove(at: originalIndexPath.row), at: newIndexPath.row)
+            self.lettersArray.insert(self.lettersArray.remove(at: originalRow), at: newRow)
             print("new letters array: ")
             print(self.lettersArray)
         }
         else if (tableView == self.numbersTableView)
         {
-            self.numbersArray.insert(self.numbersArray.remove(at: originalIndexPath.row), at: newIndexPath.row)
+            self.numbersArray.insert(self.numbersArray.remove(at: originalRow), at: newRow)
         }
     }
     
     //------------------------------------------------------------------------------
-    
-    func sortableTableView(_ releasingTableView: SortableTableView, willReleaseItem originalIndexPath: IndexPath, newIndexPath: IndexPath, receivingTableView: SortableTableView) {
+    func sortableTableView(_ releasingTableView: SortableTableView, willReleaseItem originalRow: Int, newRow: Int, receivingTableView: SortableTableView) {
         self.logEvent("willReleaseItem fired")
     }
     
@@ -214,36 +218,31 @@ class ViewController: UIViewController,SortableTableViewDelegate, SortableTableV
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ tableView: SortableTableView, draggedItemDidEnterTableViewAtIndexPath indexPath: IndexPath)
-    {
+    func sortableTableView(_ tableView: SortableTableView, draggedItemDidEnterTableViewAtRow row: Int) {
         self.logEvent("draggedItemDidEnterTableViewAtIndexPath fired")
     }
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ tableView: SortableTableView, draggedItemDidExitTableViewFromIndexPath indexPath: IndexPath)
-    {
+    func sortableTableView(_ tableView: SortableTableView, draggedItemDidExitTableViewFromRow row: Int) {
         self.logEvent("draggedItemDidExitTableViewFromIndexPath fired")
     }
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ originalTableView: SortableTableView, itemMoveDidCancel originalIndexPath: IndexPath)
-    {
+    func sortableTableView(_ originalTableView: SortableTableView, itemMoveDidCancel originalRow: Int) {
         self.logEvent("itemMoveDidCancel fired")
     }
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ originalTableView: SortableTableView, itemWasPickedUp originalIndexPath: IndexPath)
-    {
+    func sortableTableView(_ originalTableView: SortableTableView, itemWasPickedUp originalRow: Int) {
         self.logEvent("itemWasPickedUp fired")
     }
     
     //------------------------------------------------------------------------------
     
-    func sortableTableView(_ releasingTableView: SortableTableView, shouldReceiveItem originalIndexPath: IndexPath, desiredIndexPath: IndexPath, receivingTableView: UITableView) -> Bool
-    {
+    func sortableTableView(_ releasingTableView: SortableTableView, shouldReceiveItem originalRow: Int, desiredRow: Int, receivingTableView: SortableTableView) -> Bool {
         self.logEvent("shouldReceiveItem fired")
         return true
     }

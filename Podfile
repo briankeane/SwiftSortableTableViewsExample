@@ -7,8 +7,8 @@
 
 target 'SwiftSortableTableviewsExample' do
   use_frameworks!
-#    pod 'SwiftSortableTableViews', :path => '~/code/SwiftSortableTableViews/SwiftSortableTableViews.podspec'
-    pod 'SwiftSortableTableViews', '~> 0.0.3'
+    pod 'SwiftSortableTableViews', :path => '~/code/SwiftSortableTableViews/SwiftSortableTableViews.podspec'
+   # pod 'SwiftSortableTableViews', '~> 0.0.3'
   
   target 'SwiftSortableTableviewsExampleTests' do
     inherit! :search_paths
